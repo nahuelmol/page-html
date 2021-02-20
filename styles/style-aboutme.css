@@ -1,0 +1,120 @@
+.column {
+  float: left;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+.space {
+  padding-top: 50px;
+}
+
+.back-skills {
+	padding-top:100px;
+}
+.front-skills {
+}
+
+.aboutmeSkills {
+  padding:200px;
+}
+
+body {
+  background-color: #003300;
+  font-family: Arial,sans-Serif;
+  text-align: center;
+  color: #99FF99;
+}
+
+#css_bar {
+  width: 50px;
+  height: 20px;
+  background-color: #99FF99;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  animation:alongsideCSS 4s;
+}
+
+#js_bar {
+  width: 50px;
+  height: 20px;
+  background-color: #99FF99;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  animation:alongsideJS 4s;
+}
+#html_bar {
+  width: 50px;
+  height: 20px;
+  background-color: #99FF99;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  animation:alongsideHTML 4s;
+}
+
+#django_bar {
+  width: 50px;
+  height: 20px;
+  background-color: #99FF99;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  animation:alongsideDjango 4s;
+}
+#python_bar {
+  width: 50px;
+  height: 20px;
+  background-color: #99FF99;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  animation:alongsidePython 4s;
+}
+#nodejs_bar {
+  width: 50px;
+  height: 20px;
+  background-color: #99FF99;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  animation:alongsideNodejs 4s;
+}
+
+
+@keyframes alongsideCSS {
+  0%{width:50px;}
+  100%{width:150px;}
+}
+
+@keyframes alongsideJS {
+  0%{width:50px;}
+  100%{width:350px;}
+}
+
+@keyframes alongsideHTML {
+  0%{width:50px;}
+  100%{width:250px;}
+}
+
+@keyframes alongsideDjango {
+  0%{width:50px;}
+  100%{width:150px;}
+}
+
+@keyframes alongsideNodejs {
+  0%{width:50px;}
+  100%{width:350px;}
+}
+
+@keyframes alongsidePython {
+  0%{width:50px;}
+  100%{width:250px;}
+}
