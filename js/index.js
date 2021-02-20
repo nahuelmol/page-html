@@ -11,14 +11,22 @@ function jump(){
 		character.classList.remove("animate");
 	},500)
 }
+var i = 0;
 
-var checkDead = setInterval(function(){
-	var characterMove = parseInt(window.getComputedStyle(character).getPropertyValue("top"));
-	var blockMove = parseInt(window.getComputedStyle(block).getPropertyValue("left"));
+function change(content){
+	var character = document.getElementById("character");
+	character.innerHTML = content;
+}
 
-	if (blockMove<20 && blockMove<0 && characterMove>=130){
-		block.style.animation = "none";
-		block.style.display = "none";
-		document.write("You lose");
+while (i>0){
+	i++;
+	if (i == 2000) {
+		content = "Backend_dev";
+		change(content);
+		if (i == 4000) {
+			content = "Software_design";
+			change(content);
+			i = 0;
+		}
 	}
-})
+}
