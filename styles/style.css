@@ -1,5 +1,6 @@
 nav {
   color:#99FF99;
+  padding-bottom: 50px;
 }
 
 body {
@@ -32,7 +33,7 @@ body {
   
   top: 160px;
   text-align: center;
-  animation:appear 2s infinite;
+  animation:appear 2s;
 }
 
 .animate {
